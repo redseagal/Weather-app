@@ -29,11 +29,13 @@
               <div class="clearfix weather-temperature">
                 <img src="" alt="Clear" id="icon" class="float-left" />
                 <div class="float-left">
-                  <strong id="temperature"></strong
-                  ><span class="units"
-                    ><a href="#" id="celsius-link" class="active">°C</a> |
-                    <a href="#" id="fahrenheit-link">°F</a></span
-                  >
+                  <strong id="temperature">
+                  </strong>
+                  <span class="units">
+                  </span>
+                  <a href="#" id="celsius-link" class="active">°C</a> |
+                    <a href="#" id="fahrenheit-link">°F</a>
+                    </span>
                 </div>
               </div>
             </div>
@@ -43,10 +45,11 @@
                 <li><span id="wind"></span> Wind: 2km/h</li>
               </ul>
             </div>
+            <div>
             <div class="row weather-forecast" id="forecast"></div>
-            <form id="search-form" class="mt-3">
+            <form id="search-form" class="mt-4">
               <div class="row">
-                <div class="col-9">
+                <div class="col-10">
                   <input
                     type="search"
                     placeholder="Type a city.."
@@ -55,16 +58,18 @@
                     autocomplete="off"
                   />
                 </div>
-                <div class="col-3">
+                <div class="col-2">
                   <input
                     type="submit"
                     value="search"
-                    class="btn btn-primary w-200"
+                    class="btn btn-primary w-200 mr-8"
+                    id= "search-btn"
                   />
                 </div>
               </div>
-            </form>
+            </form>  
           </div>
+    </div>
         </div>
         <small>
           <a href="https://github.com/redseagal/weather-app" target="_blank"
