@@ -1,8 +1,8 @@
 h1 {
-  color: #000000;
-  font-size: 30px;
-  font-weight: 100;
-  line-height: 28px;
+  color: black;
+  font-size: 50px;
+  font-weight: 100px;
+  line-height: 20px;
 }
 
 ul {
@@ -15,7 +15,7 @@ li {
   margin: 0;
   padding: 0;
   color: rgb(135, 135, 135);
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 100;
 }
 
@@ -25,6 +25,7 @@ li:first-letter {
 
 .weather-app {
   max-width: 500px;
+  height: 490px;
   margin: 30px auto;
   padding: 30px;
   border: 1px solid #dadde1;
@@ -32,7 +33,7 @@ li:first-letter {
 }
 
 .app-wrapper {
-  max-width: 500px;
+  max-width: 475px;
   margin: 30px auto;
 }
 
@@ -48,14 +49,14 @@ li:first-letter {
 
 .weather-temperature strong {
   color: #000000;
-  font-size: 64px;
+  font-size: 55px;
   line-height: 1;
   font-weight: 400;
 }
 
 .weather-temperature .units {
   position: relative;
-  font-size: 16px;
+  font-size: 14px;
   top: -34px;
 }
 
@@ -67,8 +68,9 @@ li:first-letter {
 .weather-temperature .active:hover {
   text-decoration: none;
 }
+
 .weather-forecast {
-  margin-top: 14px;
+  margin-top: 90px;
 }
 
 .weather-forecast h3 {
@@ -90,9 +92,17 @@ li:first-letter {
 .weather-forecast-temperature {
   text-align: center;
   color: #ff9a9e;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 400;
   height: auto;
   line-height: 15px;
   white-space: nowrap;
+  margin-bottom: 10px;
+}
+#search-btn {
+  margin-left: -20px;
+}
+
+#link {
+  margin-bottom: -10px;
 }
